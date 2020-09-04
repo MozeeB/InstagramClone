@@ -26,5 +26,14 @@
         android:id="@+id/navigation_profile"
         android:name="cookode.instagram_clone.ui.profile.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_navigation_profile_to_settingActivity"
+            app:destination="@id/settingActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/settingActivity"
+        android:name="id.cikup.instagramclone.ui.profile.setting.SettingActivity"
+        android:label="activity_setting"
+        tools:layout="@layout/activity_setting" />
 </navigation>

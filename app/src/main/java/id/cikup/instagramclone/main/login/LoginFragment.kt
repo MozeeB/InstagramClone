@@ -68,14 +68,14 @@ class LoginFragment : Fragment(), View.OnClickListener {
             }
         }
     }
-//
-//    override fun onStart() {
-//        if (auth.currentUser != null){
-//            //to home
-//            findNavController().navigate(R.id.action_loginFragment_to_homeActivity)
-//        }
-//        super.onStart()
-//    }
+
+    override fun onStart() {
+        if (auth.currentUser != null){
+            //to home
+            findNavController().navigate(R.id.action_loginFragment_to_homeActivity)
+        }
+        super.onStart()
+    }
 
 
 }
