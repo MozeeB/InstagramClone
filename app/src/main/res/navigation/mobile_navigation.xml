@@ -36,4 +36,8 @@
         android:name="id.cikup.instagramclone.ui.profile.setting.SettingActivity"
         android:label="activity_setting"
         tools:layout="@layout/activity_setting" />
+    <fragment
+        android:id="@+id/navigation_add_post"
+        android:name="id.cikup.instagramclone.ui.add_post.AddPostFragment"
+        android:label="AddPostFragment" />
 </navigation>
