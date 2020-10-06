@@ -42,6 +42,7 @@ class CommentsAdapter(private val mContext: Context, private val mComment:Mutabl
 
         //create method
         //mengambil data user
+        //apa kabar ges
         getUserInfo(holder.imageProfileComment, holder.userNameCommentTV, comment.getPublisher())
     }
 
